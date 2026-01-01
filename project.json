@@ -1,0 +1,41 @@
+{
+  "title": "Proyecto integrador",
+  "author": "Mendoza Gonzalez Oscar Donovan (Estudiante)",
+  "date": "31/12/25",
+  "areaCodes": [
+    "tec"
+  ],
+  "areas": {
+    "es": "Tecnología"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "levels": {
+    "es": "Bachillerato (16-18)"
+  },
+  "description": {
+    "es": "nothing"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "pin-resized.jpg",
+  "thumbnail": "pin-resized.jpg",
+  "mainFile": "proyecto_integrador.jclic",
+  "activities": 1,
+  "mediaFiles": 2,
+  "totalSize": 75661,
+  "files": [
+    "imsmanifest.xml",
+    "index.html",
+    "pin-resized.jpg",
+    "project.json",
+    "proyecto_integrador.jclic",
+    "proyecto_integrador.jclic.js",
+    "siemprejuntos-resized.jpg"
+  ]
+}

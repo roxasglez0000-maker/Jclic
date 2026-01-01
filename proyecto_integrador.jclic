@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="proyecto_integrador" version="0.1.3">
+ <settings>
+  <title>Proyecto integrador</title>
+  <revision description="created" date="12/31/25" />
+  <author name="Mendoza Gonzalez Oscar Donovan" mail="roxasglez0000@gmail.com" rol="Estudiante" organization="ESEF" />
+  <description>
+   <p>nothing</p>
+  </description>
+  <descriptors area-codes="tec" level-codes="BTX" />
+  <cover file="pin-resized.jpg" />
+  <thumb file="pin-resized.jpg" />
+  <icon16 file="pin-resized.jpg" />
+  <icon72 file="pin-resized.jpg" />
+  <icon192 file="pin-resized.jpg" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>nothing</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Kingdom hearts" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.WordSearch" name="Kingdom hearts" code="">
+   <description>
+    <p>Divertida sopa de letras</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Resuelve esta sopa de letras encontrando los nombres de los integrantes de los 4 trios importantes de kingdom hearts.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Very good!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Creo que algo esta fallando aqui.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <image name="Siemprejuntos-resized.jpg" tiled="false" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x564CF5" transparent="true" border="false" />
+   </settings>
+   <textGrid rows="12" columns="12" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>AUQA*****A**</row>
+     <row>DEF***V*GX**</row>
+     <row>GROXASE*OE**</row>
+     <row>*I****N*OL*M</row>
+     <row>*K****T*F**I</row>
+     <row>*U****U*Y**C</row>
+     <row>******SORA*K</row>
+     <row>***TERRA***Y</row>
+     <row>************</row>
+     <row>XION*KAIRI**</row>
+     <row>**DONALD****</row>
+     <row>************</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">SORA</clue>
+    <clue id="1">RIKU</clue>
+    <clue id="2">KAIRI</clue>
+    <clue id="3">ROXAS</clue>
+    <clue id="4">AXEL</clue>
+    <clue id="5">XION</clue>
+    <clue id="6">MICKY</clue>
+    <clue id="7">DONALD</clue>
+    <clue id="8">GOOFY</clue>
+    <clue id="9">AQUA</clue>
+    <clue id="10">TERRA</clue>
+    <clue id="11">VENTUS</clue>
+   </clues>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="pin-resized.jpg" file="pin-resized.jpg" />
+  <media name="Siemprejuntos-resized.jpg" file="siemprejuntos-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
